@@ -1,0 +1,42 @@
+%transparent__btn {
+  background-color: transparent;
+  border: 1px solid rgba(27, 27, 27, 0.9);
+  border-radius: 12px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(27, 27, 27, 0.9);
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+%transparent__btn:hover{
+    background-color: rgba(27, 27, 27, 0.9);
+    color: white;
+    transform: scale(1.1);
+}
+
+%turquoise__btn {
+  background: #3dcbb1;
+  border-radius: 12px;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  transition: all 0.2s;
+  cursor: pointer 
+  ;
+}
+
+%turquoise__btn:hover{
+    background-color: transparent;
+    border: 1px solid #3dcbb1;
+    color: #3dcbb1;
+    transform: scale(1.1);
+}
+

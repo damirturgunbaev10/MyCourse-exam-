@@ -1,0 +1,54 @@
+.trending__courses {
+  height: auto;
+
+  &__container {
+    height: 707px;
+    margin-top: 40px;
+  }
+
+  &__title {
+    font-family: "Roboto";
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #000000;
+  }
+
+  &__carts {
+    margin-top: 45px;
+    width: 1200px;
+    height: 632px;
+    display: flex;
+    gap: 20px;
+  }
+
+  &__big__cart {
+    padding: 0 32px;
+    width: 590px;
+    height: 631px;
+    background-image: url(/assets/trending_courses_big_img.png);
+
+    &__sbt {
+      margin-top: 461px;
+      font-family: "Roboto";
+      font-size: 20px;
+      line-height: 30px;
+      color: rgba(249, 249, 249, 0.9);
+    }
+
+    &__title {
+      font-family: "Roboto";
+      font-size: 32px;
+      line-height: 42px;
+      color: #ffffff;
+    }
+  }
+
+  &__small__carts {
+    width: 590px;
+    height: 632px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}

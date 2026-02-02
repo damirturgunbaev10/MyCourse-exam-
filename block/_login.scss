@@ -1,0 +1,106 @@
+.login__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #9c9898;
+}
+
+.login{
+    width: 800px;
+    height: 550px;
+    display: flex;
+    
+    
+    &__left{
+        width: 400px;
+        height: 550px;
+        background-image: url(/assets/login_bcg_img.svg);
+        background-size: cover;
+    }
+
+    &__right{
+
+        border-top: 1px solid #E0E0E0;
+        border-right: 1px solid #E0E0E0;
+        border-bottom: 1px solid #E0E0E0;
+        padding: 24px 34px;
+        width: 400px;
+        height: 550px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-color: white;
+    }
+
+    &__title{
+        margin-top: 8px;
+font-family: 'Roboto';
+font-size: 16px;
+line-height: 24px;
+color: rgba(27, 27, 27, 0.6);
+    }
+
+    &__form{
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        &__btn{
+            @extend %turquoise__btn;
+            height: 41px;
+        }
+    }
+
+    &__email__input, &__password__input{
+        width: 100%;
+        height: 40px;
+        padding: 8px 12px;
+        border: 1px solid #CCCCCC;
+        border-radius: 4px;
+        font-family: 'Roboto';
+        font-size: 14px;
+        line-height: 20px;
+        color: rgba(27, 27, 27, 0.9);
+    }
+
+    &__text{
+        margin-top: 16px;
+        font-family: 'Roboto';
+        font-size: 14px;
+        line-height: 20px;
+        color: rgba(27, 27, 27, 0.6);
+        text-align: center;
+    }
+
+    &__btn{
+        width: 100%;
+        height: 41px;
+        margin-bottom: 8px;
+        border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+border: none;
+cursor: pointer;
+    }
+
+    &__facebook{
+        background-color: #3b5998;
+    }
+
+    &__google{
+        background-color: #db4437;
+    }
+
+    &__apple{
+        background-color: #000000;
+    }
+}

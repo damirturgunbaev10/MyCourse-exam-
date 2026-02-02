@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="search__navbar">
+      <nav class="search__navbar__container container">
+        <div class="search__navbar__left">
+          <img src="/assets/navbar_logo.svg" alt="navbar__logo" />
+
+          <a class="search__navbar__link" href="#">Browse</a>
+        </div>
+
+        <div class="search__navbar__form">
+          <input
+            class="search__navbar__input"
+            type="text"
+            placeholder="Search for course"
+          />
+          <button class="search__navbar__btn" type="submit" class="navbar__btn">
+            <i class="ri-search-line"></i>
+          </button>
+        </div>
+
+        <div class="search__navbar__right">
+          <p class="search__navbar__text">Become Instructor</p>
+
+          <i class="ri-shopping-cart-2-fill"></i>
+
+          <i class="ri-notification-2-line"></i>
+
+          <div class="profile">
+            <i class="ri-account-circle-line"></i>
+            <div class="dropdown_menu">
+              <a href="/html/profile.html" class="profile__details">nickname</a>
+              <a class="profile__details">email</a>
+
+              <hr />
+
+              <ul class="dropdown__ul">
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">My courses</a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">My cart</a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">Wishlist</a>
+                </li>
+              </ul>
+
+              <hr />
+
+              <ul>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">Notifications</a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">Account Settings</a>
+                </li>
+              </ul>
+
+              <hr />
+
+              <ul>
+                <li class="dropdown__item">
+                  <a class="dropdown__link dropdown__logout" href="#">Logout</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="filter">
+      <div class="filter__container container">
+      <aside class="filter__sidebar">
+        <div class="filter__option">
+          <h3 class="filter__sidebar__title">Categories</h3>
+          <label class="filter__checkbox__text"
+            ><input
+              type="checkbox"
+              class="filter__checkbox"
+              name="category"
+              value="design"
+            />
+            Design</label
+          >
+          <label class="filter__checkbox__text"
+            ><input
+              type="checkbox"
+              class="filter__checkbox"
+              name="category"
+              value="programming"
+            />
+            Programming</label
+          >
+          <label class="filter__checkbox__text"
+            ><input
+              type="checkbox"
+              class="filter__checkbox"
+              name="category"
+              value="business"
+            />
+            Business</label
+          >
+        </div>
+
+        <div class="filter__option">
+          <h3 class="filter__sidebar__title">Level</h3>
+          <label class="filter__checkbox__text"
+            ><input
+              type="checkbox"
+              class="filter__checkbox"
+              name="level"
+              value="beginner"
+            />
+            Beginner</label
+          >
+          <label class="filter__checkbox__text"
+            ><input
+              type="checkbox"
+              class="filter__checkbox"
+              name="level"
+              value="intermediate"
+            />
+            Intermediate</label
+          >
+          <label class="filter__checkbox__text"
+            ><input
+              type="checkbox"
+              class="filter__checkbox"
+              name="level"
+              value="advanced"
+            />
+            Advanced</label
+          >
+        </div>
+      </aside>
+
+      <div class="filter__cards" id="cards-container"></div>
+      </div>
+    </section>
+
+    <section class="discount">
+      <div class="discount__container container">
+        <div class="discount__content">
+          <h2 class="discount__title">Join Klevr now to get 35% off</h2>
+          <p class="discount__text">
+            With our responsive themes and mobile and desktop apps, enjoy a
+            seamless experience on any device so will your blog the best
+            visitors
+          </p>
+
+          <button class="discount__btn">Join Klevr</button>
+        </div>
+
+        <img
+          class="discount_bcg_shapes"
+          src="/assets/discount_bcg_shapes_img.svg"
+          alt="discount_bcg_shape"
+        />
+      </div>
+    </section>
+
+    <footer class="footer search__footer">
+      <div class="footer__container container">
+        <div class="footer__top">
+          <img src="/assets/footer_logo.svg" alt="footer__logo" />
+
+          <ul class="footer__ul">
+            <li class="footer__li">
+              <a class="footer__link" href="#">Web Programming</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__link" href="#">Mobile Programming</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__link" href="#">Java Beginner</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__link" href="#">PHP Beginner</a>
+            </li>
+          </ul>
+
+          <ul class="footer__ul">
+            <li class="footer__li">
+              <a class="footer__link" href="#">Adobe Illustrator</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__link" href="#">Adobe Photoshop</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__link" href="#">Design logo</a>
+            </li>
+          </ul>
+
+          <ul class="footer__ul">
+            <li class="footer__li">
+              <a class="footer__link" href="#">Writing Course</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__link" href="#">Photography</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__link" href="#">Video making</a>
+            </li>
+          </ul>
+        </div>
+
+        <hr class="footer__hr" />
+
+        <div class="footer__bottom">
+          <p class="footer__text">
+            Copyright © MyCourse.io 2024. All Rights Reserved
+          </p>
+
+          <div class="logos">
+            <i class="ri-twitter-fill"></i>
+            <i class="ri-instagram-line"></i>
+            <i class="ri-facebook-fill"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/js/search.js"></script>
+  </body>
+</html>

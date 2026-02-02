@@ -1,0 +1,155 @@
+.search__navbar {
+  height: 60px;
+  padding: 10px 0;
+  box-shadow: 0px 10px 100px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+
+  &__container {
+    height: 43px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__left {
+    height: 43px;
+    display: flex;
+    align-items: center;
+    gap: 44px;
+  }
+
+  &__link {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1b1b1b;
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  &__text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1b1b1b;
+  }
+
+  &__btn {
+    border: none;
+    background-color: transparent;
+  }
+
+  &__form {
+    padding: 0 15px;
+    background: rgba(249, 249, 249, 0.9);
+  }
+
+  &__input {
+    width: 400px;
+    height: 37px;
+    border: none;
+    background-color: #f0f0f0;
+    background: rgba(249, 249, 249, 0.9);
+    border-radius: 3px;
+  }
+}
+
+.ri-notification-2-line {
+  font-size: 24px;
+  transition: all 0.3s ease;
+  
+}
+
+.ri-account-circle-line {
+  font-size: 28px;
+  transition: all 0.3s ease;
+}
+
+.ri-notification-2-line:hover{
+  font-size: 26px;
+}
+
+.ri-account-circle-line:hover {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+
+.dropdown_menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  visibility: hidden;
+  opacity: 0;
+  transform: translatex(-100px);
+  transition: all 0.3s ease;
+  position: absolute;
+  background: white;
+  width: 250px;
+  height: 300px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  padding: 8px 15px;
+  margin-top: 10px;
+}
+
+.profile:hover .dropdown_menu {
+  visibility: visible;
+  opacity: 1;
+  transform: translatex(-100px);
+}
+
+.dropdown_item {
+  padding: 10px 10px;
+  font-family: "Roboto";
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+}
+
+.dropdown__ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown__link {
+  display: inline-block;
+  font-family: "Roboto";
+  font-size: 16px;
+  color: #333;
+}
+
+.dropdown_link:hover {
+  background: #f0f0f0;
+  transform: scale(1.3);
+}
+
+.dropdown__item {
+  padding: 5px 0;
+}
+
+.profile__details {
+  display: inline-block;
+  font-family: "Roboto";
+  font-size: 16px;
+  color: #333;
+}
+
+.dropdown__logout{
+  color: red;
+}

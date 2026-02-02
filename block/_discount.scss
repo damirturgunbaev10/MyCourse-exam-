@@ -1,0 +1,46 @@
+.discount {
+  height: auto;
+
+  &__container {
+    margin-top: 40px;
+    height: 307px;
+    background-color: #1b283f;
+    border-radius: 20px;
+    display: flex;
+  }
+
+  &__content {
+    padding: 60px 36.3px;
+  }
+
+  &__bcg__shapes {
+    border-radius: 60px;
+  }
+
+  &__title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #ffffff;
+  }
+
+  &__text {
+    width: 830px;
+    margin-top: 8px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  &__btn {
+    @extend %turquoise__btn;
+    width: 109px;
+    height: 41px;
+    margin-top: 24px;
+  }
+}

@@ -1,0 +1,56 @@
+.search {
+  height: auto;
+  position:   relative;
+  z-index: 2;
+
+  &__container {
+    background-color: white;
+    position: absolute;
+    top: -85px;
+    left: 50%;  
+    transform: translateX(-50%);
+    width: 1200px;
+    height: 170px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 23px;
+    padding: 32px 32px;
+    z-index: 2;
+  }
+
+  &__title {
+    font-family: "Roboto";
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+  }
+
+  &__form {
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__input {
+    height: 50px;
+  }
+
+  &__input1 {
+    width: 389px;
+  }
+
+  &__input2 {
+    width: 248px;
+  }
+
+  &__btn {
+    @extend %turquoise__btn;
+    width: 179px;
+    height: 50px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #ffffff;
+  }
+}

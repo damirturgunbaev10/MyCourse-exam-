@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    />
+  </head>
+  <body>
+    <section class="login__wrapper">
+      <div class="login">
+        <div class="login__left"></div>
+
+        <div class="login__right">
+          <img src="/assets/navbar_logo.svg" alt="logo" class="login__logo" />
+
+          <h3 class="login__title">
+            Join us and get more benefits. We promise to keep your data safely.
+          </h3>
+
+          <form class="login__form">
+            <label for="login__email__input">
+              <input
+                id="login__email__input"
+                class="login__email__input"
+                type="text"
+                placeholder="Enter your email"
+              />
+              <i class="ri-mail-line"></i>
+            </label>
+
+            <label for="login__password__input">
+              <input
+                id="login__password__input"
+                class="login__password__input"
+                type="password"
+                placeholder="Password"
+              /><i class="ri-lock-2-fill"></i>
+            </label>
+
+            <button type="submit" class="login__form__btn">Login</button>
+          </form>
+
+          <p class="login__text">or you can</p>
+
+          <button class="login__btn login__facebook">
+            <i class="ri-facebook-box-fill"></i>Continue with Facebook
+          </button>
+          <button class="login__btn login__apple">
+            <i class="ri-apple-fill"></i>Continue with Apple
+          </button>
+          <button class="login__btn login__google">
+            <i class="ri-google-fill"></i>continue with Google
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+
+    <script src="/js/login.js"></script>
+  </body>
+</html>

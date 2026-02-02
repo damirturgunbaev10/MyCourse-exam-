@@ -1,0 +1,86 @@
+.ri-twitter-fill {
+  color: #a0a0a0;
+}
+
+.ri-twitter-fill:hover{
+    font-size: 20px;
+}
+
+.ri-instagram-line {
+  color: #a0a0a0;
+}
+
+.ri-instagram-line:hover{
+    font-size: 20px;
+}
+
+.ri-facebook-fill {
+  color: #a0a0a0;
+}
+
+.ri-facebook-fill:hover{
+    font-size: 20px;
+}
+
+.footer {
+  height: auto;
+  background-color: black;
+
+  &__container {
+    height: 302px;
+    padding: 40px 0;
+  }
+
+  &__top {
+    display: flex;
+    align-items: start;
+  }
+
+  &__ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: 168px;
+    gap: 16px;
+  }
+
+  &__link {
+    display: inline-block;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #ffffff;
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  &__hr {
+    margin-top: 60px;
+    border: none;
+    height: 1px;
+    background-color: #2b2b2b;
+  }
+
+  &__bottom {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(249, 249, 249, 0.6);
+  }
+}
+
+.search__footer{
+  margin-top: 80px;
+}

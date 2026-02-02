@@ -1,0 +1,38 @@
+.top__courses {
+  height: auto;
+
+  &__container {
+    margin-top: 140px;;
+    height: 369px;
+  }
+
+  &__title {
+    font-family: "Roboto";
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+    text-align: center;
+  }
+
+  &__ul{
+    display: flex;
+    margin: 24px auto;
+    width: 467px;
+    justify-content: space-between;
+  }
+
+  &__link{
+    text-align: center;
+font-family: 'Roboto';
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+  }
+
+  &__down{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+
+  }
+}

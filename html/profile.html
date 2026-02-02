@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="search__navbar">
+      <nav class="search__navbar__container container">
+        <div class="search__navbar__left">
+          <img src="/assets/navbar_logo.svg" alt="navbar__logo" />
+
+          <a class="search__navbar__link" href="#">Browse</a>
+        </div>
+
+        <div class="search__navbar__form">
+          <input
+            class="search__navbar__input"
+            type="text"
+            placeholder="Search for course"
+          />
+          <button class="search__navbar__btn" type="submit" class="navbar__btn">
+            <i class="ri-search-line"></i>
+          </button>
+        </div>
+
+        <div class="search__navbar__right">
+          <p class="search__navbar__text">Become Instructor</p>
+
+          <i class="ri-shopping-cart-2-fill"></i>
+
+          <i class="ri-notification-2-line"></i>
+
+          <div class="profile">
+            <i class="ri-account-circle-line"></i>
+            <div class="dropdown_menu">
+              <a class="profile__details profile__details__name">nickname</a>
+              <a class="profile__details">email</a>
+
+              <hr />
+
+              <ul class="dropdown__ul">
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">My courses</a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">My cart</a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">Wishlist</a>
+                </li>
+              </ul>
+
+              <hr />
+
+              <ul>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">Notifications</a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">Account Settings</a>
+                </li>
+              </ul>
+
+              <hr />
+
+              <ul>
+                <li class="dropdown__item">
+                  <a class="dropdown__link dropdown__logout" href="#">Logout</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="profile__section">
+      <div class="profile__section__container">
+        <h3 class="profile__section__title">My account</h3>
+
+        <ul class="profile__section__ul">
+          <li class="profile__section__li">
+            <a href="#" class="profile__section__link">Profile</a>
+          </li>
+          <li class="profile__section__li">
+            <a href="#" class="profile__section__link">Personalisation</a>
+          </li>
+          <li class="profile__section__li">
+            <a href="#" class="profile__section__link">Account</a>
+          </li>
+          <li class="profile__section__li">
+            <a href="#" class="profile__section__link">Payment methods</a>
+          </li>
+          <li class="profile__section__li">
+            <a href="#" class="profile__section__link">Notifications</a>
+          </li>
+          <li class="profile__section__li">
+            <a href="#" class="profile__section__link">Privacy</a>
+          </li>
+        </ul>
+
+        <i class="ri-account-circle-line profile__section__avatar"></i>
+
+        <div class="profile__section__details">
+          <label for="">
+            First name
+            <input
+              type="text"
+              class="profile__section__input profile__section__input__first__name"
+              placeholder="Enter your first name"
+            />
+          </label>
+          <hr class="profile__section__hr" />
+          <label for="">
+            Last name
+            <input
+              type="text"
+              class="profile__section__input profile__section__input__last__name"
+              placeholder="Enter your last name"
+            />
+          </label>
+          <hr class="profile__section__hr" />
+
+          <label for="">
+            Headline
+            <input
+              type="text"
+              class="profile__section__input"
+              placeholder="Enter your headline"
+            />
+          </label>
+
+          <label for="">
+            Language
+            <input
+              type="text"
+              class="profile__section__input"
+              placeholder="Select language"
+            />
+          </label>
+          <hr class="profile__section__hr" />
+
+          <label for="">
+            Link
+            <input
+              type="text"
+              class="profile__section__input"
+              placeholder="Enter your link"
+            />
+          </label>
+        </div>
+
+        <button type="submit" class="profile__section__btn">Save</button>
+      </div>
+    </section>
+
+    <footer class="footer search__footer">
+      <div class="footer__container container">
+        <div class="footer__top">
+          <img src="/assets/footer_logo.svg" alt="footer__logo" />
+
+          <ul class="footer__ul">
+            <li class="footer__li">
+              <a class="footer__link" href="#">Web Programming</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__link" href="#">Mobile Programming</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__link" href="#">Java Beginner</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__link" href="#">PHP Beginner</a>
+            </li>
+          </ul>
+
+          <ul class="footer__ul">
+            <li class="footer__li">
+              <a class="footer__link" href="#">Adobe Illustrator</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__link" href="#">Adobe Photoshop</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__link" href="#">Design logo</a>
+            </li>
+          </ul>
+
+          <ul class="footer__ul">
+            <li class="footer__li">
+              <a class="footer__link" href="#">Writing Course</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__link" href="#">Photography</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__link" href="#">Video making</a>
+            </li>
+          </ul>
+        </div>
+
+        <hr class="footer__hr" />
+
+        <div class="footer__bottom">
+          <p class="footer__text">
+            Copyright © MyCourse.io 2024. All Rights Reserved
+          </p>
+
+          <div class="logos">
+            <i class="ri-twitter-fill"></i>
+            <i class="ri-instagram-line"></i>
+            <i class="ri-facebook-fill"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/js/profile.js"></script>
+  </body>
+</html>
